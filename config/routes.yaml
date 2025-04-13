@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+gesdinet_jwt_refresh_token:
+    path: /api/user/refresh-token
+
+api_login_check:
+    path: /api/user/login

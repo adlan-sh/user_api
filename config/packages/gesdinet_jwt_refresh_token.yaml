@@ -1,0 +1,4 @@
+gesdinet_jwt_refresh_token:
+  ttl: 86400
+  token_parameter_name: refreshToken
+  refresh_token_class: App\Entity\RefreshToken
